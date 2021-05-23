@@ -1,13 +1,11 @@
 import re
 
-
 def find_main_charecters(charecter_name):
     with open('sanguo.txt', encoding='gb18030') as f:
         data = f.read().replace("\n", "")
         name_num = re.findall(charecter_name, data)
         # print('主角 %s 出现了%s 次'%(charecter_name,len(name_num)))
     return charecter_name, len(name_num)
-
 
 name_dict = {}
 with open('name.txt', encoding='utf-8') as f:
