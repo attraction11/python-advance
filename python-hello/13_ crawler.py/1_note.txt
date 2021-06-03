@@ -1,0 +1,3 @@
+网络库：urllib库               http协议常用库                数据收集
+       request库              http协议常用库                数据收集
+       BeautifulSoup库        xml格式处理库                 格式处理
