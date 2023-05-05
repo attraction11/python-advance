@@ -23,4 +23,8 @@ x, y = move(100, 100, 60, math.pi / 6)
 print(x, y)
 
 # TypeError: bad operand type:
-my_abs('123')
+# my_abs('123')
+
+def person(name, age, *args, city='hangzhou', job):
+    print('name:', name, *args, 'age:', age, 'other:', city, job)
+person('Tom', 20, 60, job='Engineer')    

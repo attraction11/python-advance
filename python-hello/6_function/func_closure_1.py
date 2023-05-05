@@ -1,22 +1,22 @@
-# def func():
-#     a = 1
-#     b = 2
-#     return(a + b)
+def func():
+    a = 1
+    b = 2
+    return(a + b)
 
 # 闭包函数
-# def sum(a):
-#     def add(b):
-#         return a + b
-#     return add
+def sum(a):
+    def add(b):
+        return a + b
+    return add
 
 # add 函数名称或函数引用
 # add() 函数的调用
 
-# num1 = func()
-# num2 = sum(2)
-# print(num2(4))
-# print(type(num1))
-# print(type(num2))
+num1 = func()
+num2 = sum(2)
+print(num2(4))
+print(type(num1))
+print(type(num2))
 
 # 使用闭包实现计数器
 def counter(FIRST=0):
